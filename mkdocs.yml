@@ -1,13 +1,15 @@
-site_name: Guida AI per Ingegneri
-site_description: Guida digitale pratica all'Intelligenza Artificiale per gli ingegneri
+site_name: AI Professione Ingegnere
+site_description: Guida collaborativa all'Intelligenza Artificiale per la professione di Ingegnere
 site_author: Gruppo di lavoro AI - Ingegneri
-repo_name: ai-ingegneri-guida
-repo_url: https://github.com/<ORG>/<REPO>
+repo_name: ai-professione-ingegnere
+repo_url: https://github.com/<USERNAME>/ai-professione-ingegnere
 edit_uri: edit/main/docs/
 
 theme:
   name: material
   language: it
+  logo: assets/images/favicon.svg
+  favicon: assets/images/favicon.svg
   features:
     - navigation.tabs
     - navigation.sections
@@ -20,17 +22,25 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: blue
-      accent: indigo
+      primary: red
+      accent: red
       toggle:
         icon: material/weather-night
         name: Passa al tema scuro
     - scheme: slate
-      primary: blue
-      accent: indigo
+      primary: red
+      accent: red
       toggle:
         icon: material/weather-sunny
         name: Passa al tema chiaro
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/<USERNAME>/ai-professione-ingegnere
 
 plugins:
   - search:

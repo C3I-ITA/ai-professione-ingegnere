@@ -1,0 +1,128 @@
+:root {
+  --ai-red: #c8102e;
+  --ai-dark: #233142;
+  --ai-muted: #6b7280;
+  --ai-light: #f7f8fa;
+}
+
+.md-header, .md-tabs {
+  background-color: #ffffff;
+  color: var(--ai-dark);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.1rem;
+}
+
+.md-header__title, .md-tabs__link {
+  color: var(--ai-dark);
+}
+
+.md-search__form {
+  background-color: #f3f4f6;
+}
+
+.md-typeset a,
+.md-nav__link--active,
+.md-nav__link:focus,
+.md-nav__link:hover {
+  color: var(--ai-red);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: var(--ai-dark);
+  font-weight: 700;
+}
+
+.md-typeset h1 {
+  border-bottom: 3px solid var(--ai-red);
+  padding-bottom: .35rem;
+}
+
+.ai-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem 0 1.5rem;
+}
+
+.ai-kicker {
+  color: var(--ai-red);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.ai-hero h1 {
+  border: 0;
+  margin: .3rem 0;
+  font-size: 2.6rem;
+  line-height: 1.05;
+}
+
+.ai-hero p {
+  color: var(--ai-dark);
+  font-size: 1.05rem;
+}
+
+.ai-hero-card {
+  border: 1px solid #e5e7eb;
+  background: linear-gradient(135deg, #ffffff 0%, #f7f8fa 100%);
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(35,49,66,.08);
+}
+
+.ai-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
+.ai-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1rem;
+  background: #fff;
+}
+
+.ai-card strong {
+  color: var(--ai-red);
+}
+
+.ai-button {
+  display: inline-block;
+  background: var(--ai-red);
+  color: #fff !important;
+  padding: .65rem 1rem;
+  border-radius: 6px;
+  font-weight: 700;
+  margin-right: .5rem;
+}
+
+.ai-button.secondary {
+  background: #fff;
+  color: var(--ai-red) !important;
+  border: 1px solid var(--ai-red);
+}
+
+.ai-footer-band {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--ai-red);
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  .ai-hero { grid-template-columns: 1fr; }
+  .ai-hero h1 { font-size: 2rem; }
+}

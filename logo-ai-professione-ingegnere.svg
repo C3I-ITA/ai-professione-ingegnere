@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" role="img" aria-labelledby="title desc">
+  <title id="title">AI Professione Ingegnere</title>
+  <desc id="desc">Logo del progetto AI Professione Ingegnere con esagono rosso e testo istituzionale.</desc>
+  <defs>
+    <style>
+      .red{fill:#c8102e}.dark{fill:#233142}.muted{fill:#6b7280}.stroke{fill:none;stroke:#c8102e;stroke-width:10;stroke-linejoin:round}.thin{fill:none;stroke:#c8102e;stroke-width:2;opacity:.45}
+    </style>
+  </defs>
+  <g transform="translate(18 18)">
+    <path class="stroke" d="M62 0 124 36v72l-62 36L0 108V36z"/>
+    <path class="thin" d="M62 11v122M9 41l106 62M115 41 9 103"/>
+    <text x="62" y="91" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="58" font-weight="800" class="red">AI</text>
+  </g>
+  <g transform="translate(175 38)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-size="35" font-weight="800" class="dark">PROFESSIONE</text>
+    <text x="0" y="39" font-family="Montserrat, Arial, sans-serif" font-size="35" font-weight="800" class="dark">INGEGNERE</text>
+    <rect x="0" y="55" width="185" height="3" class="red"/>
+    <text x="0" y="86" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2" class="muted">INTELLIGENZA ARTIFICIALE</text>
+    <text x="0" y="109" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2" class="muted">PER LA PROFESSIONE</text>
+  </g>
+</svg>
