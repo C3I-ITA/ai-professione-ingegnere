@@ -14,7 +14,7 @@ hide:
   </p>
 
   <p>
-    Un progetto promosso dal<strong>C3I</strong> per supportare gli ingegneri
+    Un progetto promosso dal <strong>C3I</strong> per supportare gli ingegneri
     nell'adozione consapevole, sicura e responsabile dell'Intelligenza Artificiale.
   </p>
 
