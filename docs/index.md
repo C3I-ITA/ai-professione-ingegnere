@@ -1,8 +1,22 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 <div class="hero">
+  <img src="assets/images/logo-ai-professione-ingegnere.svg" class="hero-logo" alt="AI Professione Ingegnere">
 
-# AI Professione Ingegnere
+  <h1>AI Professione Ingegnere</h1>
 
-## La guida collaborativa italiana sull'Intelligenza Artificiale per la professione di Ingegnere
+  <p class="hero-subtitle">
+    Guida collaborativa all'Intelligenza Artificiale per la professione di Ingegnere
+  </p>
+
+  <p>
+    Un progetto promosso dal<strong>C3I</strong> per supportare gli ingegneri
+    nell'adozione consapevole, sicura e responsabile dell'Intelligenza Artificiale.
+  </p>
 
 <div class="hero-box">
 L'Intelligenza Artificiale non sostituisce l'ingegnere. Ne amplifica competenze, capacità decisionali e produttività. La responsabilità professionale rimane sempre in capo all'ingegnere.
