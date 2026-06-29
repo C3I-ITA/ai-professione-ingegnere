@@ -1,25 +1,18 @@
 site_name: AI Professione Ingegnere
-site_description: Guida collaborativa all'Intelligenza Artificiale per la professione di Ingegnere
-site_author: Gruppo di lavoro AI - Ingegneri
-repo_name: ai-professione-ingegnere
-repo_url: https://github.com/<USERNAME>/ai-professione-ingegnere
+site_description: Guida collaborativa all'Intelligenza Artificiale per la professione di Ingegnere.
+site_author: C3I-ITA
+site_url: https://c3i-ita.github.io/ai-professione-ingegnere/
+repo_name: C3I-ITA/ai-professione-ingegnere
+repo_url: https://github.com/C3I-ITA/ai-professione-ingegnere
 edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; C3I-ITA - Comitato Italiano Ingegneria dell'Informazione
 
 theme:
   name: material
   language: it
-  logo: assets/images/favicon.svg
+  logo: assets/images/logo-ai-professione-ingegnere.svg
   favicon: assets/images/favicon.svg
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.indexes
-    - navigation.top
-    - search.highlight
-    - search.suggest
-    - content.action.edit
-    - content.code.copy
   palette:
     - scheme: default
       primary: red
@@ -33,65 +26,88 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Passa al tema chiaro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
 
 extra_css:
   - assets/stylesheets/extra.css
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/<USERNAME>/ai-professione-ingegnere
-
 plugins:
   - search:
       lang: it
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - minify:
+      minify_html: true
+  - mermaid2
 
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
   - toc:
       permalink: true
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
 
 nav:
   - Home: index.md
-  - Introduzione:
-      - Manifesto: 00-introduzione/manifesto.md
-      - Come usare la guida: 00-introduzione/come-usare-la-guida.md
-  - Fondamenti:
-      - AI per ingegneri: 01-fondamenti/ai-per-ingegneri.md
-      - Machine Learning e Deep Learning: 01-fondamenti/ml-dl.md
-      - Generative AI, LLM e agenti: 01-fondamenti/generative-ai-llm-agenti.md
-  - Strumenti:
-      - Panoramica strumenti: 02-strumenti/panoramica.md
-      - Prompt engineering: 02-strumenti/prompt-engineering.md
-      - RAG e knowledge base: 02-strumenti/rag.md
-  - Framework operativo:
-      - AI Verified Engineering Framework: 03-framework/ai-verified-engineering-framework.md
-      - Verifica e validazione: 03-framework/verifica-validazione.md
-      - Tracciabilita e responsabilita: 03-framework/tracciabilita-responsabilita.md
-  - Settori:
-      - Ingegneria civile: 04-settori/civile.md
-      - Ingegneria industriale: 04-settori/industriale.md
-      - Ingegneria dell'informazione: 04-settori/informazione.md
-      - Ingegneria gestionale: 04-settori/gestionale.md
-      - Ingegneria ambientale: 04-settori/ambientale.md
-  - Normativa:
-      - AI Act: 05-normativa/ai-act.md
-      - GDPR e privacy: 05-normativa/gdpr.md
-      - NIS2 e cybersecurity: 05-normativa/nis2.md
-      - Responsabilita professionale: 05-normativa/responsabilita-professionale.md
-  - Standard:
-      - ISO IEC 42001: 06-standard/iso-iec-42001.md
-      - ISO IEC 23894: 06-standard/iso-iec-23894.md
-      - ISO 31000: 06-standard/iso-31000.md
+  - Manifesto:
+      - manifesto/index.md
+  - La Guida:
+      - guida/index.md
+      - Fondamenti:
+          - guida/fondamenti/index.md
+          - guida/fondamenti/ai-ml-dl.md
+          - guida/fondamenti/generative-ai.md
+          - guida/fondamenti/llm-rag-agenti.md
+      - Professione:
+          - guida/professione/index.md
+          - guida/professione/ruolo-ingegnere.md
+          - guida/professione/competenze.md
   - Toolbox:
-      - Prompt library: 07-toolbox/prompt-library.md
-      - Checklist AI Act: 07-toolbox/checklist-ai-act.md
-      - Checklist uso AI nello studio professionale: 07-toolbox/checklist-studio-professionale.md
-      - Template AI Policy: 08-template/ai-policy.md
-  - Glossario: 09-glossario/glossario.md
+      - toolbox/index.md
+  - Playbooks:
+      - playbooks/index.md
+  - Prompt Library:
+      - prompt-library/index.md
+  - Normativa:
+      - normativa/index.md
+      - normativa/ai-act.md
+      - normativa/gdpr.md
+  - Standard:
+      - standard/index.md
+      - standard/iso-iec-42001.md
+  - Template: template/index.md
+  - Checklist: checklist/index.md
+  - Casi d'uso: casi-uso/index.md
+  - Academy: academy/index.md
+  - Governance:
+      - governance/index.md
+      - governance/processo-editoriale.md

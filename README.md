@@ -1,35 +1,39 @@
-# Guida all'Intelligenza Artificiale per gli Ingegneri
+# AI Professione Ingegnere
 
-Repository della guida digitale pratica per l'uso professionale dell'Intelligenza Artificiale nella professione di ingegnere.
+**Guida collaborativa all'Intelligenza Artificiale per la professione di Ingegnere.**
 
-## Obiettivo
+Progetto promosso dall'organizzazione **C3I-ITA** per raccogliere metodologie, strumenti, riferimenti normativi, standard, playbook e buone pratiche sull'utilizzo dell'Intelligenza Artificiale nella professione tecnica.
 
-Fornire agli ingegneri un manuale vivo, pratico e aggiornabile su metodi, strumenti, responsabilita, normative, standard e casi d'uso dell'AI nei diversi settori dell'ingegneria.
+## Stato del progetto
 
-## Struttura
+**v0.1-dev - Active development**
 
-- Fondamenti AI per ingegneri
-- Strumenti e workflow professionali
-- AI Verified Engineering Framework
-- Applicazioni per settore
-- Normativa, AI Act, GDPR, NIS2 e standard ISO/IEC
-- Toolbox operativo: prompt, checklist, template
+Il progetto è in fase iniziale. La struttura è pronta per accogliere contributi, revisioni e contenuti.
 
-## Sviluppo locale
+## Sito della guida
 
-```bash
-pip install mkdocs mkdocs-material
-mkdocs serve
-```
+La documentazione è pubblicata tramite GitHub Pages:
 
-Poi aprire il sito locale indicato dal terminale.
+<https://c3i-ita.github.io/ai-professione-ingegnere/>
 
-## Pubblicazione
+## Struttura principale
 
-```bash
-mkdocs gh-deploy
-```
+- Guida
+- Toolbox
+- Playbooks
+- Prompt Library
+- Normativa
+- Standard
+- Template
+- Checklist
+- Casi d'uso
+- Academy
+- Governance
+
+## Contribuire
+
+Leggi [CONTRIBUTING.md](CONTRIBUTING.md) e apri una issue o una pull request.
 
 ## Licenza
 
-Contenuti rilasciati con licenza Creative Commons Attribution 4.0 International, salvo diversa indicazione.
+I contenuti sono rilasciati secondo la licenza indicata nel file [LICENSE](LICENSE).

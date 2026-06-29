@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: AI Professione Ingegnere
+message: "Se utilizzi questo progetto, cita il repository GitHub."
+type: software
+authors:
+  - name: C3I-ITA
+repository-code: "https://github.com/C3I-ITA/ai-professione-ingegnere"
+license: CC-BY-4.0
+version: 0.1-dev

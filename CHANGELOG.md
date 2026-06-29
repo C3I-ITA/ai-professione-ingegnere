@@ -1,8 +1,9 @@
 # Changelog
 
-## 0.1.0 - Bozza iniziale
+## v0.1-dev
 
-- Creata struttura repository.
-- Configurato MkDocs Material.
-- Inserite prime sezioni della guida.
-- Inserito AI Verified Engineering Framework.
+- Infrastruttura enterprise-grade iniziale.
+- Struttura MkDocs Material.
+- Workflow GitHub Actions.
+- Template issue e pull request.
+- Governance, roadmap e documentazione di base.

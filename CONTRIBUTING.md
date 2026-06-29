@@ -1,19 +1,29 @@
-# Contribuire alla guida
+# Contribuire
 
-La guida e pensata come progetto collaborativo.
+Grazie per l'interesse verso AI Professione Ingegnere.
+
+## Tipologie di contributo
+
+- Nuovi capitoli o sezioni.
+- Revisione tecnica.
+- Revisione normativa.
+- Prompt, template e checklist.
+- Correzioni editoriali.
 
 ## Regole editoriali
 
-- Usare un linguaggio chiaro e professionale.
-- Distinguere sempre tra fatti, interpretazioni e raccomandazioni.
-- Citare fonti normative, tecniche e scientifiche.
-- Inserire esempi pratici verificabili.
-- Evitare affermazioni promozionali su strumenti specifici.
-- Evidenziare limiti, rischi e responsabilita professionali.
+Ogni contenuto deve essere:
 
-## Processo di revisione
+1. utile per la pratica professionale;
+2. chiaro e verificabile;
+3. supportato da fonti quando tratta norme, standard o dati tecnici;
+4. rispettoso della responsabilità professionale dell'ingegnere;
+5. privo di dati personali o informazioni riservate.
 
-1. Proposta di modifica tramite pull request.
-2. Revisione tecnica.
-3. Revisione normativa/deontologica se necessaria.
-4. Approvazione editoriale.
+## Flusso di lavoro
+
+1. Apri una issue.
+2. Discuti la proposta.
+3. Apri una pull request.
+4. Attendi revisione tecnica/editoriale.
+5. Il contenuto viene approvato e pubblicato.

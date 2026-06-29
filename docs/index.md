@@ -1,28 +1,40 @@
-# Guida all'Intelligenza Artificiale per gli Ingegneri
+<div class="hero">
 
-Questa guida digitale nasce per supportare gli ingegneri nell'utilizzo consapevole, sicuro e professionale dell'Intelligenza Artificiale.
+# AI Professione Ingegnere
 
-Non e un testo teorico sull'AI. E un manuale operativo, pensato per rispondere a una domanda concreta:
+## La guida collaborativa italiana sull'Intelligenza Artificiale per la professione di Ingegnere
 
-> Come puo un ingegnere usare l'AI nel proprio lavoro, mantenendo responsabilita tecnica, qualita professionale e conformita normativa?
+<div class="hero-box">
+L'Intelligenza Artificiale non sostituisce l'ingegnere. Ne amplifica competenze, capacità decisionali e produttività. La responsabilità professionale rimane sempre in capo all'ingegnere.
+</div>
 
-## Principi guida
+</div>
 
-1. L'AI assiste il professionista, non lo sostituisce.
-2. La responsabilita tecnica resta dell'ingegnere.
-3. Ogni output generato dall'AI deve essere verificato.
-4. Dati, fonti, prompt e decisioni rilevanti devono essere tracciabili.
-5. L'uso dell'AI deve rispettare norme, deontologia, sicurezza e privacy.
+## Cosa contiene la guida
 
-## A chi si rivolge
+<div class="grid cards" markdown>
 
-- Ingegneri liberi professionisti
-- Dipendenti pubblici e privati
-- Studi tecnici e societa di ingegneria
-- Ordini territoriali
-- Commissioni e gruppi di lavoro
-- Formatori e docenti
+-   :material-school-outline: **Fondamenti**
+
+    AI, Machine Learning, Deep Learning, Generative AI, LLM, RAG e agenti.
+
+-   :material-gavel: **Normativa**
+
+    AI Act, GDPR, NIS2, Data Act, diritto d'autore e responsabilità professionale.
+
+-   :material-tools: **Toolbox**
+
+    Strumenti, modelli, workflow e criteri di scelta per l'uso professionale.
+
+-   :material-clipboard-check: **Playbook e checklist**
+
+    Procedure operative, prompt, template e controlli per attività professionali.
+
+</div>
 
 ## Stato del progetto
 
-Versione iniziale del repository. I contenuti saranno progressivamente sviluppati e revisionati.
+**Versione:** v0.1-dev  
+**Organizzazione:** C3I-ITA  
+**Stato:** active development
+
