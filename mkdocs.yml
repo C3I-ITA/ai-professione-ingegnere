@@ -97,8 +97,9 @@ nav:
           - guida/professione/ruolo-ingegnere.md
           - guida/professione/competenze.md
   - Toolbox:
-      - toolbox/index.md
-      - AI Conversazionale:
+    - toolbox/index.md
+
+    - AI Conversazionale:
         - ChatGPT: toolbox/ai-conversazionale/chatgpt.md
         - Claude: toolbox/ai-conversazionale/claude.md
         - Gemini: toolbox/ai-conversazionale/gemini.md
