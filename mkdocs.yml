@@ -83,53 +83,109 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+
   - Manifesto:
-      - manifesto/index.md
+      - Introduzione: manifesto/index.md
+
   - La Guida:
-      - guida/index.md
+      - Introduzione: guida/index.md
+
       - Fondamenti:
-          - guida/fondamenti/index.md
-          - guida/fondamenti/ai-ml-dl.md
-          - guida/fondamenti/generative-ai.md
-          - guida/fondamenti/llm-rag-agenti.md
+          - Introduzione: guida/fondamenti/index.md
+          - AI, ML e DL: guida/fondamenti/ai-ml-dl.md
+          - Generative AI: guida/fondamenti/generative-ai.md
+          - LLM, RAG e Agenti: guida/fondamenti/llm-rag-agenti.md
+
       - Professione:
-          - guida/professione/index.md
-          - guida/professione/ruolo-ingegnere.md
-          - guida/professione/competenze.md
+          - La professione: guida/professione/index.md
+          - Il ruolo dell'ingegnere: guida/professione/ruolo-ingegnere.md
+          - Le competenze: guida/professione/competenze.md
+
   - Toolbox:
-    - toolbox/index.md
+      - Introduzione: toolbox/index.md
 
-    - AI Conversazionale:
-        - ChatGPT: toolbox/ai-conversazionale/chatgpt.md
-        - Claude: toolbox/ai-conversazionale/claude.md
-        - Gemini: toolbox/ai-conversazionale/gemini.md
-        - Copilot: toolbox/ai-conversazionale/copilot.md
-        - Perplexity: toolbox/ai-conversazionale/perplexity.md
+      - AI Conversazionale:
+          - ChatGPT: toolbox/ai-conversazionale/chatgpt.md
+          - Claude: toolbox/ai-conversazionale/claude.md
+          - Gemini: toolbox/ai-conversazionale/gemini.md
+          - Microsoft Copilot: toolbox/ai-conversazionale/copilot.md
+          - Perplexity: toolbox/ai-conversazionale/perplexity.md
 
-    - AI Coding:
-        - Cursor: toolbox/ai-coding/cursor.md
-        - GitHub Copilot: toolbox/ai-coding/github-copilot.md
+      - AI Coding:
+          - Cursor: toolbox/ai-coding/cursor.md
+          - GitHub Copilot: toolbox/ai-coding/github-copilot.md
 
-    - Document AI:
-        - NotebookLM: toolbox/document-ai/notebooklm.md
+      - Document AI:
+          - NotebookLM: toolbox/document-ai/notebooklm.md
 
-    - CAD • BIM • CAE:
-        - Autodesk AI: toolbox/cad-bim/autodesk-ai.md
+      - CAD • BIM • CAE:
+          - Autodesk AI: toolbox/cad-bim/autodesk-ai.md
+
   - Playbooks:
-      - playbooks/index.md
+      - Introduzione: playbooks/index.md
+
+      - Produttività:
+          - Gestione email: playbooks/produttivita/gestione-email.md
+          - Sintesi riunione: playbooks/produttivita/sintesi-riunione.md
+          - Preparare un'offerta: playbooks/produttivita/preparare-offerta.md
+          - Organizzare documenti: playbooks/produttivita/organizzare-documenti.md
+
+      - Documentazione tecnica:
+          - Relazione tecnica: playbooks/documentazione-tecnica/relazione-tecnica.md
+          - Capitolato: playbooks/documentazione-tecnica/capitolato.md
+          - Verbale di sopralluogo: playbooks/documentazione-tecnica/verbale-sopralluogo.md
+          - CTU e CTP: playbooks/documentazione-tecnica/ctu-ctp.md
+          - Confronto documenti: playbooks/documentazione-tecnica/confronto-documenti.md
+
+      - Normativa:
+          - Analisi norma tecnica: playbooks/normativa/analisi-norma-tecnica.md
+          - Ricerca fonti: playbooks/normativa/ricerca-fonti.md
+          - Verifica requisiti: playbooks/normativa/verifica-requisiti.md
+          - Matrice di conformità: playbooks/normativa/matrice-conformita.md
+
+      - Civile e Ambientale:
+          - Analisi NTC: playbooks/civile-ambientale/analisi-ntc.md
+          - Supporto BIM: playbooks/civile-ambientale/supporto-bim.md
+          - Relazione paesaggistica: playbooks/civile-ambientale/relazione-paesaggistica.md
+          - Monitoraggio cantiere: playbooks/civile-ambientale/monitoraggio-cantiere.md
+
+      - Industriale:
+          - FMEA: playbooks/industriale/fmea.md
+          - Manutenzione predittiva: playbooks/industriale/manutenzione-predittiva.md
+          - Manuale tecnico: playbooks/industriale/manuale-tecnico.md
+          - Analisi processo: playbooks/industriale/analisi-processo.md
+
+      - Informazione:
+          - Code review: playbooks/informazione/code-review.md
+          - Documentazione API: playbooks/informazione/documentazione-api.md
+          - Analisi log: playbooks/informazione/analisi-log.md
+          - Cybersecurity check: playbooks/informazione/cybersecurity-check.md
+          - Generazione script: playbooks/informazione/generazione-script.md
+
   - Prompt Library:
-      - prompt-library/index.md
+      - Introduzione: prompt-library/index.md
+
   - Normativa:
-      - normativa/index.md
-      - normativa/ai-act.md
-      - normativa/gdpr.md
+      - Introduzione: normativa/index.md
+      - AI Act: normativa/ai-act.md
+      - GDPR: normativa/gdpr.md
+
   - Standard:
-      - standard/index.md
-      - standard/iso-iec-42001.md
-  - Template: template/index.md
-  - Checklist: checklist/index.md
-  - Casi d'uso: casi-uso/index.md
-  - Academy: academy/index.md
+      - Introduzione: standard/index.md
+      - ISO/IEC 42001: standard/iso-iec-42001.md
+
+  - Template:
+      - Introduzione: template/index.md
+
+  - Checklist:
+      - Introduzione: checklist/index.md
+
+  - Casi d'uso:
+      - Introduzione: casi-uso/index.md
+
+  - Academy:
+      - Introduzione: academy/index.md
+
   - Governance:
-      - governance/index.md
-      - governance/processo-editoriale.md
+      - Introduzione: governance/index.md
+      - Processo editoriale: governance/processo-editoriale.md
