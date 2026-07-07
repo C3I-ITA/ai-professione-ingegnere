@@ -154,8 +154,7 @@ Il Prompt Engineering Toolkit è strettamente integrato con le altre sezioni del
 | Toolbox | Descrive gli strumenti di AI |
 | Playbooks | Spiega come svolgere attività professionali con l'AI |
 | Prompt Engineering Toolkit | Insegna come progettare prompt efficaci |
-| Template | Fornisce modelli di documenti professionali |
-| Casi d'uso | Mostra applicazioni concrete nelle diverse discipline dell'ingegneria |
+
 
 ---
 
