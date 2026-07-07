@@ -162,8 +162,75 @@ nav:
           - Cybersecurity check: playbooks/informazione/cybersecurity-check.md
           - Generazione script: playbooks/informazione/generazione-script.md
 
-  - Prompt Library:
-      - Introduzione: prompt-library/index.md
+- Prompt Engineering Toolkit:
+
+      - Introduzione: prompt-engineering-toolkit/index.md
+
+      - Metodo C3I-PROMPT:
+          - Introduzione: prompt-engineering-toolkit/metodo-c3i/index.md
+          - Ruolo: prompt-engineering-toolkit/metodo-c3i/ruolo.md
+          - Obiettivo: prompt-engineering-toolkit/metodo-c3i/obiettivo.md
+          - Contesto: prompt-engineering-toolkit/metodo-c3i/contesto.md
+          - Documentazione: prompt-engineering-toolkit/metodo-c3i/documentazione.md
+          - Vincoli: prompt-engineering-toolkit/metodo-c3i/vincoli.md
+          - Formato dell'output: prompt-engineering-toolkit/metodo-c3i/output.md
+          - Verifica finale: prompt-engineering-toolkit/metodo-c3i/verifica.md
+
+      - Fondamenti:
+          - Cos'è un Prompt: prompt-engineering-toolkit/fondamenti/cos-e-un-prompt.md
+          - Anatomia di un Prompt: prompt-engineering-toolkit/fondamenti/anatomia-prompt.md
+          - Prompt efficace: prompt-engineering-toolkit/fondamenti/prompt-efficace.md
+          - Errori comuni: prompt-engineering-toolkit/fondamenti/errori-comuni.md
+
+      - Pattern di Prompt:
+          - Introduzione: prompt-engineering-toolkit/pattern/index.md
+          - Zero-shot: prompt-engineering-toolkit/pattern/zero-shot.md
+          - Few-shot: prompt-engineering-toolkit/pattern/few-shot.md
+          - Role Prompting: prompt-engineering-toolkit/pattern/role-prompting.md
+          - Step-by-Step: prompt-engineering-toolkit/pattern/step-by-step.md
+          - Self Review: prompt-engineering-toolkit/pattern/self-review.md
+          - RAG Prompting: prompt-engineering-toolkit/pattern/rag-prompting.md
+          - Agent Prompting: prompt-engineering-toolkit/pattern/agent-prompting.md
+
+      - Prompt Catalog:
+
+          - Introduzione: prompt-engineering-toolkit/catalogo/index.md
+
+          - Normativa:
+              - Analisi di una norma tecnica: prompt-engineering-toolkit/catalogo/normativa/analisi-norma.md
+              - Confronto tra norme: prompt-engineering-toolkit/catalogo/normativa/confronto-norme.md
+              - Estrazione requisiti: prompt-engineering-toolkit/catalogo/normativa/estrazione-requisiti.md
+
+          - Documentazione Tecnica:
+              - Relazione tecnica: prompt-engineering-toolkit/catalogo/documentazione/relazione-tecnica.md
+              - Capitolato: prompt-engineering-toolkit/catalogo/documentazione/capitolato.md
+              - CTU e CTP: prompt-engineering-toolkit/catalogo/documentazione/ctu-ctp.md
+              - Verbale di sopralluogo: prompt-engineering-toolkit/catalogo/documentazione/verbale.md
+
+          - Produttività:
+              - Gestione email: prompt-engineering-toolkit/catalogo/produttivita/email.md
+              - Riunioni: prompt-engineering-toolkit/catalogo/produttivita/riunioni.md
+              - Offerte tecniche: prompt-engineering-toolkit/catalogo/produttivita/offerte.md
+
+          - Programmazione:
+              - Python: prompt-engineering-toolkit/catalogo/coding/python.md
+              - SQL: prompt-engineering-toolkit/catalogo/coding/sql.md
+              - Code Review: prompt-engineering-toolkit/catalogo/coding/code-review.md
+              - API: prompt-engineering-toolkit/catalogo/coding/api.md
+
+          - BIM e CAD:
+              - Revit: prompt-engineering-toolkit/catalogo/bim/revit.md
+              - Dynamo: prompt-engineering-toolkit/catalogo/bim/dynamo.md
+
+          - Analisi Dati:
+              - Excel: prompt-engineering-toolkit/catalogo/dati/excel.md
+              - CSV: prompt-engineering-toolkit/catalogo/dati/csv.md
+              - Grafici: prompt-engineering-toolkit/catalogo/dati/grafici.md
+
+      - Prompt Builder:
+          - Introduzione: prompt-engineering-toolkit/prompt-builder/index.md
+          - Canvas C3I: prompt-engineering-toolkit/prompt-builder/canvas.md
+          - Template Prompt: prompt-engineering-toolkit/prompt-builder/template.md
 
   - Normativa:
       - Introduzione: normativa/index.md
@@ -182,9 +249,6 @@ nav:
 
   - Casi d'uso:
       - Introduzione: casi-uso/index.md
-
-  - Academy:
-      - Introduzione: academy/index.md
 
   - Governance:
       - Introduzione: governance/index.md
