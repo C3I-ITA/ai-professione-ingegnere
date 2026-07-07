@@ -101,7 +101,7 @@ nav:
           - Il ruolo dell'ingegnere: guida/professione/ruolo-ingegnere.md
           - Le competenze: guida/professione/competenze.md
 
-  - Toolbox:
+ - Toolbox:
       - Introduzione: toolbox/index.md
 
       - AI Conversazionale:
@@ -121,7 +121,7 @@ nav:
       - CAD • BIM • CAE:
           - Autodesk AI: toolbox/cad-bim/autodesk-ai.md
 
-  - Playbooks:
+ - Playbooks:
       - Introduzione: playbooks/index.md
 
       - Produttività:
@@ -162,7 +162,7 @@ nav:
           - Cybersecurity check: playbooks/informazione/cybersecurity-check.md
           - Generazione script: playbooks/informazione/generazione-script.md
 
-- Prompt Engineering Toolkit:
+ - Prompt Engineering Toolkit:
 
       - Introduzione: prompt-engineering-toolkit/index.md
 
