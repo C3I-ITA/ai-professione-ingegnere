@@ -232,23 +232,67 @@ nav:
           - Canvas C3I: prompt-engineering-toolkit/prompt-builder/canvas.md
           - Template Prompt: prompt-engineering-toolkit/prompt-builder/template.md
 
-  - Normativa:
+  - Norme, Standard e Governance:
       - Introduzione: normativa/index.md
-      - AI Act: normativa/ai-act.md
-      - GDPR: normativa/gdpr.md
 
-  - Standard:
-      - Introduzione: standard/index.md
-      - ISO/IEC 42001: standard/iso-iec-42001.md
+      - Scenario normativo:
+          - Introduzione: normativa/scenario/index.md
+          - Panorama europeo: normativa/scenario/panorama-europeo.md
+          - Panorama italiano: normativa/scenario/panorama-italiano.md
+          - Evoluzione normativa: normativa/scenario/evoluzione-normativa.md
+
+      - Regolamenti europei:
+          - Introduzione: normativa/regolamenti-europei/index.md
+          - AI Act: normativa/regolamenti-europei/ai-act.md
+          - GDPR: normativa/regolamenti-europei/gdpr.md
+          - Data Act: normativa/regolamenti-europei/data-act.md
+          - Data Governance Act: normativa/regolamenti-europei/data-governance-act.md
+          - Direttiva NIS2: normativa/regolamenti-europei/nis2.md
+          - Cyber Resilience Act: normativa/regolamenti-europei/cyber-resilience-act.md
+          - Open Data Directive: normativa/regolamenti-europei/open-data-directive.md
+          - Regolamento Macchine: normativa/regolamenti-europei/machine-regulation.md
+
+      - Standard internazionali:
+          - Introduzione: normativa/standard/index.md
+          - ISO/IEC 42001: normativa/standard/iso-42001.md
+          - ISO/IEC 22989: normativa/standard/iso-22989.md
+          - ISO/IEC 23053: normativa/standard/iso-23053.md
+          - ISO/IEC 23894: normativa/standard/iso-23894.md
+          - ISO/IEC 38507: normativa/standard/iso-38507.md
+          - ISO/IEC TR 24027: normativa/standard/iso-tr-24027.md
+          - ISO/IEC TR 24028: normativa/standard/iso-tr-24028.md
+          - ISO/IEC 5259: normativa/standard/iso-5259.md
+          - IEEE: normativa/standard/ieee.md
+
+      - Etica e Governance:
+          - Introduzione: normativa/etica/index.md
+          - Principi OCSE: normativa/etica/ocse.md
+          - Raccomandazione UNESCO: normativa/etica/unesco.md
+          - Ethics Guidelines for Trustworthy AI: normativa/etica/eu-ethics-guidelines.md
+          - Human-Centric AI: normativa/etica/human-centric-ai.md
+
+      - Professione e responsabilità:
+          - Introduzione: normativa/professione/index.md
+          - Codice Deontologico: normativa/professione/codice-deontologico.md
+          - Responsabilità professionale: normativa/professione/responsabilita-professionale.md
+          - Proprietà intellettuale: normativa/professione/proprieta-intellettuale.md
+          - Privacy professionale: normativa/professione/privacy-professionale.md
+          - Conservazione documentale: normativa/professione/conservazione-documentale.md
+
+      - Guide operative:
+          - Come leggere una norma: normativa/schede/come-leggere-una-norma.md
+          - Matrice degli obblighi: normativa/schede/matrice-obblighi.md
+          - Cronologia normativa AI: normativa/schede/cronologia-normativa.md
+          - Glossario: normativa/schede/glossario.md
 
   - Template:
       - Introduzione: template/index.md
 
-  - Checklist:
-      - Introduzione: checklist/index.md
-
   - Casi d'uso:
       - Introduzione: casi-uso/index.md
+
+  - Academy:
+      - Introduzione: academy/index.md
 
   - Governance:
       - Introduzione: governance/index.md
