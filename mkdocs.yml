@@ -285,15 +285,6 @@ nav:
           - Cronologia normativa AI: normativa/schede/cronologia-normativa.md
           - Glossario: normativa/schede/glossario.md
 
-  - Template:
-      - Introduzione: template/index.md
-
-  - Casi d'uso:
-      - Introduzione: casi-uso/index.md
-
-  - Academy:
-      - Introduzione: academy/index.md
-
   - Governance:
       - Introduzione: governance/index.md
       - Processo editoriale: governance/processo-editoriale.md
