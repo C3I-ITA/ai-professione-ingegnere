@@ -150,8 +150,6 @@ Questa sezione è strettamente integrata con gli altri capitoli della guida.
 | Toolbox | Gli strumenti AI devono essere utilizzati nel rispetto del quadro normativo. |
 | Prompt Engineering Toolkit | I prompt devono essere progettati considerando privacy, sicurezza e conformità. |
 | Playbooks | Ogni workflow richiama le norme applicabili e le responsabilità del professionista. |
-| Template | I modelli documentali recepiscono i principali requisiti normativi. |
-| Casi d'uso | Gli esempi applicativi mostrano l'impatto concreto delle norme nelle diverse discipline dell'ingegneria. |
 
 ---
 
